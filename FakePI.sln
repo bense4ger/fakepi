@@ -6,6 +6,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakePI.Web", "FakePI.Web\Fa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakePI.Lib.Test", "FakePI.Lib.Test\FakePI.Lib.Test.csproj", "{BDBABC0F-5F0A-425A-9558-4DF76FD9AA67}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{B631BC6D-C107-43DA-9A63-ED8E825B44D4}"
+ProjectSection(SolutionItems) = preProject
+	LICENCE.md = LICENCE.md
+	README.md = README.md
+	.gitignore = .gitignore
+	.travis.yml = .travis.yml
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakePI.Web.Test", "FakePI.Web.Test\FakePI.Web.Test.csproj", "{7479C2F5-07F0-4564-8D8E-DD63BBDB8E75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +34,9 @@ Global
 		{BDBABC0F-5F0A-425A-9558-4DF76FD9AA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDBABC0F-5F0A-425A-9558-4DF76FD9AA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDBABC0F-5F0A-425A-9558-4DF76FD9AA67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7479C2F5-07F0-4564-8D8E-DD63BBDB8E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7479C2F5-07F0-4564-8D8E-DD63BBDB8E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7479C2F5-07F0-4564-8D8E-DD63BBDB8E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7479C2F5-07F0-4564-8D8E-DD63BBDB8E75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

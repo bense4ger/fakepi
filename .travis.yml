@@ -1,0 +1,9 @@
+language: csharp
+mono: none
+dotnet: 2.1.101
+install:
+  - dotnet restore
+script:
+  - dotnet build
+  - dotnet test FakePI.Lib.Test
+  - dotnet test FakePI.Web.Test
